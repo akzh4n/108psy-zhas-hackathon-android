@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.activities.SplashScreen">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/psy"
+        android:cropToPadding="true" />
+</RelativeLayout>

@@ -1,4 +1,4 @@
-package com.example.psy108_todolist.utils
+package com.example.psytodolist.utils
 
 class Constants {
     companion object {

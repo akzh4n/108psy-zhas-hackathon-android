@@ -1,16 +1,16 @@
-package com.example.psy108_todolist.view.fragments
+package com.example.psytodolist.view.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.psy108_todolist.R
+import com.example.psytodolist.R
 import android.view.animation.DecelerateInterpolator
 import android.animation.ObjectAnimator
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.example.psy108_todolist.data.Note
-import com.example.psy108_todolist.viewmodel.NoteViewModel
+import com.example.psytodolist.data.Note
+import com.example.psytodolist.viewmodel.NoteViewModel
 import kotlinx.android.synthetic.main.fragment_home_notes.*
 
 
@@ -37,7 +37,7 @@ class HomeNotes : BaseFragment() {
 
     private fun getData() {
         noteViewModel = ViewModelProviders.of(this).get(NoteViewModel::class.java)
-        noteViewModel!!.allNotes.observe(this,
+        noteViewModel!!.allNotes.observe(viewLifecycleOwner,
             Observer<List<Note>> { notes ->
                 var personalCounter = 0
                 var workCounter = 0
@@ -61,7 +61,7 @@ class HomeNotes : BaseFragment() {
             onboarding_activity_progress_bar,
             "progress",
             0,
-            70
+            48
         ) // see this max value coming back here, we animate towards that value
         animation.duration = 5000 // in milliseconds
         animation.interpolator = DecelerateInterpolator()

@@ -1,4 +1,4 @@
-package com.example.psy108_todolist.data
+package com.example.psytodolist.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

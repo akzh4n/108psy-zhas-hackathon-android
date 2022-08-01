@@ -1,4 +1,4 @@
-package com.example.psy108_todolist.view.activities
+package com.example.psytodolist.view.activities
 
 import android.os.Bundle
 import android.view.Menu
@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
-import com.example.psy108_todolist.R
+import com.example.psytodolist.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

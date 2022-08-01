@@ -6,19 +6,26 @@
     app:startDestination="@id/destination_home">
     <fragment
         android:id="@+id/destination_home"
-        android:name="com.example.psy108_todolist.view.fragments.HomeNotes"
+        android:name="com.example.psytodolist.view.fragments.HomeNotes"
         android:label="Меню"
         tools:layout="@layout/fragment_home_notes" />
     <fragment
         android:id="@+id/destination_add_note"
-        android:name="com.example.psy108_todolist.view.fragments.AddNotes"
+        android:name="com.example.psytodolist.view.fragments.AddNotes"
         android:label="Новая задача"
         tools:layout="@layout/fragment_add_notes">
     </fragment>
     <fragment
         android:id="@+id/destination_all_notes"
-        android:name="com.example.psy108_todolist.view.fragments.AllNotes"
+        android:name="com.example.psytodolist.view.fragments.AllNotes"
         android:label="Список задач"
         tools:layout="@layout/fragment_all_notes">
+    </fragment>
+
+    <fragment
+        android:id="@+id/support_model"
+        android:name="com.example.psytodolist.view.fragments.SupportModel"
+        android:label="Поддержка"
+        tools:layout="@layout/fragment_support_model">
     </fragment>
 </navigation>

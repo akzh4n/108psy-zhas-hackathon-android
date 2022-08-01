@@ -1,11 +1,11 @@
-package com.example.psy108_todolist.view.activities;
+package com.example.psytodolist.view.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import com.example.psy108_todolist.R;
+import com.example.psytodolist.R;
 
 import java.util.Random;
 

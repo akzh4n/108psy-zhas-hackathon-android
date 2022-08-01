@@ -1,4 +1,4 @@
-package com.example.psy108_todolist.view.adapters
+package com.example.psytodolist.view.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
-import com.example.psy108_todolist.R
-import com.example.psy108_todolist.data.Note
-import com.example.psy108_todolist.viewmodel.NoteViewModel
+import com.example.psytodolist.R
+import com.example.psytodolist.data.Note
+import com.example.psytodolist.viewmodel.NoteViewModel
 import java.util.ArrayList
 
 class NoteAdapter(private val context: Context, private var noteViewModel:NoteViewModel?)

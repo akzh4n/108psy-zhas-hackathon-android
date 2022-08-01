@@ -12,4 +12,9 @@
         android:id="@+id/destination_all_notes"
         android:icon="@drawable/ic_note"
         android:title="Все задачи" />
+
+    <item
+        android:id="@+id/support_model"
+        android:icon="@drawable/ic_support"
+        android:title="Все задачи" />
 </menu>

@@ -1,12 +1,12 @@
-package com.example.psy108_todolist.viewmodel
+package com.example.psytodolist.viewmodel
 
 import android.app.Application
 import androidx.annotation.NonNull
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.example.psy108_todolist.data.Note
-import com.example.psy108_todolist.data.NoteRepository
+import com.example.psytodolist.data.Note
+import com.example.psytodolist.data.NoteRepository
 import kotlinx.coroutines.launch
 
 

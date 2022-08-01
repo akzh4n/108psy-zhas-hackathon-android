@@ -1,4 +1,4 @@
-package com.example.psy108_todolist
+package com.example.psytodolist
 
 import org.junit.Test
 

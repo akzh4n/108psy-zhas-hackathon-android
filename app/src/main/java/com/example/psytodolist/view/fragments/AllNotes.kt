@@ -1,4 +1,4 @@
-package com.example.psy108_todolist.view.fragments
+package com.example.psytodolist.view.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,11 +13,11 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.psy108_todolist.data.Note
-import com.example.psy108_todolist.view.adapters.NoteAdapter
-import com.example.psy108_todolist.viewmodel.NoteViewModel
+import com.example.psytodolist.data.Note
+import com.example.psytodolist.view.adapters.NoteAdapter
+import com.example.psytodolist.viewmodel.NoteViewModel
 import kotlinx.android.synthetic.main.fragment_all_notes.*
-import com.example.psy108_todolist.R
+import com.example.psytodolist.R
 
 
 class AllNotes : BaseFragment() {
@@ -41,11 +41,11 @@ class AllNotes : BaseFragment() {
         recyclerView.setHasFixedSize(true)
         noteViewModel = ViewModelProviders.of(this).get(NoteViewModel::class.java)
 
-        val adapter = NoteAdapter(this.activity!!, noteViewModel)
+        val adapter = NoteAdapter(this.requireActivity(), noteViewModel)
         recyclerView.adapter = adapter
 
 
-        noteViewModel!!.allNotes.observe(this, object : Observer<List<Note>> {
+        noteViewModel!!.allNotes.observe(viewLifecycleOwner, object : Observer<List<Note>> {
             override fun onChanged(@Nullable notes: List<Note>) {
                 // Update recycler view
                 if(notes.isEmpty()){

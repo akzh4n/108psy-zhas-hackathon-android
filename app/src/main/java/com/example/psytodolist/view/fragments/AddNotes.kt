@@ -1,4 +1,4 @@
-package com.example.psy108_todolist.view.fragments
+package com.example.psytodolist.view.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
-import com.example.psy108_todolist.R
-import com.example.psy108_todolist.data.Note
-import com.example.psy108_todolist.utils.Constants
-import com.example.psy108_todolist.viewmodel.NoteViewModel
+import com.example.psytodolist.R
+import com.example.psytodolist.data.Note
+import com.example.psytodolist.utils.Constants
+import com.example.psytodolist.viewmodel.NoteViewModel
 import kotlinx.android.synthetic.main.fragment_add_notes.*
 
 class AddNotes : BaseFragment() {

@@ -16,5 +16,5 @@
     <item
         android:id="@+id/support_model"
         android:icon="@drawable/ic_support"
-        android:title="Все задачи" />
+        android:title="Поддержка" />
 </menu>

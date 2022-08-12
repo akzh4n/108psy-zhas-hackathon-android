@@ -9,7 +9,7 @@
   
   
 
-# Home Page
+## Home Page
 
 <p align="center">
   <img src="https://github.com/manste1n/108psy-zhas-hackathon-android/blob/master/assets/1.png" width="200" title="Home Page">
@@ -21,7 +21,7 @@
 The menu mainly shows user statistics, such as their efficiency, completed tasks, or active tasks. And so the tasks were divided into categories such as work, personal growth, health, etc. 
 
 
-# Create Task and All Tasks Pages
+## Create Task and All Tasks Pages
 
 
 
@@ -42,7 +42,7 @@ After setting tasks, the user can see which tasks have been created, which are a
 
 
 
-# Support Page
+## Support Page
 <p align="center">
   <img src="https://github.com/manste1n/108psy-zhas-hackathon-android/blob/master/assets/4.png" width="200" title="Support">
 </p>
